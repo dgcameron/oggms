@@ -3,7 +3,7 @@
 This image is a copy of the [OGG123RS_PDBS_HOLBASE](http://retriever.us.oracle.com/apex/f?p=121:22:7096965570613831::NO:RP:P22_CONTAINER_ID,P22_PREV_PAGE:81018,5425609) base image (focused on OGG 12.1.3 with Microservices) with the following added.  Note this can be used as both a demo image and a how to guide for installation and configuration.  It is not a polished HOL.  It also has SQL Developer installed and has many additional REST API examples. 
 - Base Image:
     - OGG123RS_PDBS_HOLBASE+ (14.4G, must be on VPN): `ftp://soleng/soleng@ff-ftp.us.oracle.com/SOA/OPC/SALESKITS/Veridata`
-    - Base image HOL:  [Oracle_GoldenGate_12c_HOL_Current.pdf](https://dgcameron.github.io/veridata/Oracle_GoldenGate_12c_HOL_Current.pdf).  Note that the software has been removed from the image to reduce the size.  If you wish to do lab 1 you will need to first copy the software to the image, and install into a different location from the existing install.  **Labs 1 - 5 have already been done for you.**
+    - Base image HOL:  [Oracle_GoldenGate_12c_HOL_Current.pdf](https://dgcameron.github.io/oggms/Oracle_GoldenGate_12c_HOL_Current.pdf).  Note that the software has been removed from the image to reduce the size.  If you wish to do lab 1 you will need to first copy the software to the image, and install into a different location from the existing install.  **Labs 1 - 5 have already been done for you.**
 - SQLDeveloper installed with connections configured.
 - Veridata installed and Configured
 - Separate secure deployment with wallet configuration.
