@@ -14,6 +14,7 @@ This image is a copy of the [OGG123RS_PDBS_HOLBASE](http://retriever.us.oracle.c
 - PL/SQL packages:
     - Create configuration and start replication using pl/sql (same as above that use curl statements, but with pl/sql).
     - Drop configuration with sql/plsql.
+- Docker installed with ELK monitoring.
 
 ## **Getting Started**
 
