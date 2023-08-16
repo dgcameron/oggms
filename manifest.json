@@ -1,51 +1,40 @@
 {
-    "workshop": {
-        "title": "OGG123RS_PDBS_HOLBASE+ (With Veridata)",
-        "description": "Install of Oracle Veridata on the OGG123RS_PDBS_HOLGATE VM",
-        "theme": "default",
-        "labs": [
-            {
-                "number": "10",
-                "filename": "README.md",
-                "title": "Demo Image Details",
-                "description": "Demo Image Details"
-            },
-            {
-                "number": "20",
-                "filename": "onewayreplication.md",
-                "title": "One Way Replication Demo and Config",
-                "description": "One Way Replication Demo and Config"
-            },
-            {
-                "number": "30",
-                "filename": "secure.md",
-                "title": "Configure a Secure Deployment with Wallets",
-                "description": "Configure a Secure Deployment with Wallets"
-            },
-            {
-                "number": "40",
-                "filename": "veridata.md",
-                "title": "Veridata Demo and Install and Configuration",
-                "description": "Veridata demo, install and configuration details"
-            },
-            {
-                "number": "50",
-                "filename": "docker.md",
-                "title": "Docker With Elk Monitoring",
-                "description": "Docker With Elk Monitoring"
-            },
-            {
-                "number": "60",
-                "filename": "rest.md",
-                "title": "Script PDB Cloning and Replication",
-                "description": "Script PDB Cloning and Replication"
-            },
-            {
-                "number": "70",
-                "filename": "plsql.md",
-                "title": "Script PDB Cloning and Replication using PLSQL",
-                "description": "Script PDB Cloning and Replication using PLSQL"
-            }
-        ]
-    }
+    "workshoptitle": "OGG123RS PDBS HOLBASE+ (With Veridata)",
+    "help": "",
+    "include": {
+        "import": "../../common/import_notebook.md"
+    },
+    "tutorials": [
+        {
+            "title": "Demo Image Details",
+            "filename": "README.md"
+        },
+        {
+		"title": "One Way Replication Demo and Config",
+		"filename": "onewayreplication.md"
+        },
+	{
+	    "title": "Configure a Secure Deployment with Wallets",
+            "filename": "secure.md"
+        },
+        {
+	    "title": "Veridata Demo and Install and Configuration",
+            "filename": "veridata.md"
+        },
+        {
+	    "title": "Docker With Elk Monitoring",
+            "filename": "docker.md"
+        },
+        {
+	    "title": "Script PDB Cloning and Replication",
+            "filename": "rest.md"
+        },
+	{
+            "title": "Script PDB Cloning and Replication using PLSQL",
+	    "filename": "plsql.md"
+
+        }
+    ]
 }
+
+
